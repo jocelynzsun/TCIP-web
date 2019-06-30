@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Avenir Next", sans-serif; 
+	background-color: #F8F9F4;
+}
+
+.txt h1{
+	color: #4A4A4A;
+	margin-bottom: 0px;
+	font-size: large;
+	
+}
+
+.txt h2{
+	color: #9B9B9B;
+	margin-top: 0px;
+	font-size: large;
+	font-style: italic;
+}
+
+.txt p{
+	color: #2980BA;
+}
+
+.txt ul{
+	color: #2980BA;
+}
+
+#energyPortfolio p{
+	color: #2980BA;
+}
+
+sup{
+	color: #2980BA;
+	text-decoration: underline;
+}
+
+sub{
+	font-size: 0.85em;
+}
+
