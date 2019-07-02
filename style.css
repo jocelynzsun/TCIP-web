@@ -27,6 +27,15 @@ body{
 	color: #2980BA;
 }
 
+#man{
+	background-image: url("assets/health.png");
+
+}
+
+#nox img{
+	margin-top: -50px;
+}
+
 #energyPortfolio p{
 	color: #2980BA;
 }
