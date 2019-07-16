@@ -31,18 +31,70 @@ body {
 	color: #2980BA;
 }
 
+.gridcontainer{
+	text-align: center;
+}
+
+.electric_grid{
+	display: inline-block;
+	border: solid 1px black; 
+	position: relative;
+	width: 850px;
+	height: 380px;
+}
+
+.electric_grid #coal{
+	position: absolute;
+	top: 40%;
+	right: 73%;
+	opacity: 0.8;
+}
+#coal:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+.electric_grid #naturalgas{
+	position: absolute;
+	top: 65%;
+	right: 40%;
+	opacity: 0.8;
+}
+
+#naturalgas:hover{
+	opacity: 1.0;
+}
+ 
+.electric_grid #nuclear{
+	position: absolute;
+	top: 45%;
+	left: 43%;
+	opacity: 0.8;
+}
+
+#nuclear:hover{
+	opacity: 1.0;
+}
+
+.electric_grid #solar{
+	position: absolute;
+	top: 59%;
+	left: 65%;
+	opacity: 0.8;
+}
+
+#solar:hover{
+	opacity: 1.0;
+}
+
 .man_grid {
 	margin: -50px 90px 100px;
 	display: grid;
 	height: 400px;
-
 	grid-template-columns: repeat(15, 1fr);
 	grid-template-rows: repeat(8, 1fr);
 	position: relative;
-	
 }
-
-
 
 #energyPortfolio p {
 	color: #2980BA;
