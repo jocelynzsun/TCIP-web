@@ -32,12 +32,11 @@
 		<div class="container-fluid">
 			<div class="gridcontainer">
 				<div class="electric_grid">
-					<img id="coal" src="assets/coal.png" alt="coal plant" width="200px" onClick="window.open('coal.html');">
-					<img id="naturalgas" src="assets/naturalgas.png" alt="natural gas" width="250px">
-					<img id="nuclear" src="assets/nuclear.png" alt="wind power" width="150px">
-					<img id="solar" src="assets/solar.png" alt="solar power" width="175px">
-					
-					<!-- missing windmills -->
+					<img id="coal" src="assets/coal.png" title="Coal Power Plant" alt="coal plant" width="200px" onClick="window.open('coal.html');">
+					<img id="naturalgas" src="assets/naturalgas.png" title="Natural Gas Power Plant" alt="natural gas" width="250px" onClick="window.open('naturalgas.html');">
+					<img id="nuclear" src="assets/nuclear.png" title="Nuclear Power Plant" alt="nuclear power" width="150px" onClick="window.open('nuclear.html');">
+					<img id="solar" src="assets/solar.png" title="Solar Power Plant" alt="solar power" width="175px" onClick="window.open('solar.html');">
+					<img id="wind" src="assets/wind2.png" title="Wind Turbine" alt="wind power" width="185px" onClick="window.open('wind.html');">
 				</div>
 			</div>
 		</div>
@@ -63,10 +62,18 @@
 		
 		<!-- grid approach -->
 		
-		<div class="container">
+		<div class="container-fluid">
   			
-			<div class="man_grid">
-				<div class="text-center"> <img src="assets/health.png" alt="man"> </div>
+			<div class="mancontainer">
+				<div class="man">
+					<img src="assets/health.png" alt="man" style="width:700px">
+					<p id="co2text">*Carbon Dioxide - eq</p>
+					<img src="assets/CO2-eq.png" id="co2" alt="CO2" style="width:60px">
+					<p id="noxtext">*Nitrogen Oxide</p>
+					<img src="assets/NOx.png" id="nox" alt="NOx" style="width:60px">
+					<p id="pmtext">*Particulate Matter</p>
+					<img src="assets/PM.png" id="pm" alt="PM" style="width:60px">
+				</div>
 			</div>
 		</div>
 		

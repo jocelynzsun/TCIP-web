@@ -37,7 +37,7 @@ body {
 
 .electric_grid{
 	display: inline-block;
-	border: solid 1px black; 
+	/*border: solid 1px black;  for debug purposes */
 	position: relative;
 	width: 850px;
 	height: 380px;
@@ -63,6 +63,7 @@ body {
 
 #naturalgas:hover{
 	opacity: 1.0;
+	cursor: pointer;
 }
  
 .electric_grid #nuclear{
@@ -74,6 +75,7 @@ body {
 
 #nuclear:hover{
 	opacity: 1.0;
+	cursor: pointer;
 }
 
 .electric_grid #solar{
@@ -85,15 +87,80 @@ body {
 
 #solar:hover{
 	opacity: 1.0;
+	cursor: pointer;
 }
 
-.man_grid {
-	margin: -50px 90px 100px;
-	display: grid;
-	height: 400px;
-	grid-template-columns: repeat(15, 1fr);
-	grid-template-rows: repeat(8, 1fr);
+.electric_grid #wind{
+	position: absolute;
+	top: 11%;
+	left: 80%;
+	opacity: 0.8;
+}
+
+#wind:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+.mancontainer {
+	text-align: center;
+}
+
+.man{
+	display: inline-block;
 	position: relative;
+}
+
+
+/*might need to fix position due to resizing */
+#co2text{
+	position: absolute;
+	top: 13%;
+	left: 64%;
+}
+
+/*might need to fix position due to resizing */
+#co2{
+	position: absolute;
+	top: 21%;
+	left: 70%;
+	opacity: 0.8;
+	
+}
+
+#co2:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#noxtext{
+	position: absolute;
+	top: 8%;
+	left: 26%;
+}
+
+#nox{
+	position: absolute;
+	top: 16%;
+	right: 62%;
+	opacity: 0.8;
+}
+
+#nox:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#pmtext{
+	position: absolute;
+	
+}
+
+#pm{
+	position: absolute;
+	top: 33%;
+	right: 68%;
+	opacity: 0.8;
 }
 
 #energyPortfolio p {
