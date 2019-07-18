@@ -104,38 +104,50 @@ body {
 
 .mancontainer {
 	text-align: center;
-	border: 1px solid black;
+	
 }
 
 .man{
 	display: inline-block;
 	position: relative;
-	border: 1px solid black;
+	
 }
 
 
 .listcontainer{
 	text-align: center;
-
-	border: 1px solid black;
+	height: 100px;
+	
 }
 
-.toplist{
+#li{
 	padding-top: 50px;
 	position: relative;
 	display: inline-block;
-	border: 1px solid black;
+	
+	width: 700px;
 }
 
 #li1{
 	position: absolute;
 	
+	left: 15%;
 }
 
 #li2{
 	position: absolute;
+
+	right: 15%;
 }
 	
+.numbering{
+	font-weight: bold;
+	color: #2980BA;
+}
+
+.li_item{
+	font-weight: bold;
+}
 
 #co2text{
 	position: absolute;
