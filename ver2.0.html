@@ -32,11 +32,11 @@
 		<div class="container-fluid">
 			<div class="gridcontainer">
 				<div class="electric_grid">
-					<img id="coal" src="assets/coal.png" title="Coal Power Plant" alt="coal plant" width="200px" onClick="window.open('coal.html');">
-					<img id="naturalgas" src="assets/naturalgas.png" title="Natural Gas Power Plant" alt="natural gas" width="250px" onClick="window.open('naturalgas.html');">
-					<img id="nuclear" src="assets/nuclear.png" title="Nuclear Power Plant" alt="nuclear power" width="150px" onClick="window.open('nuclear.html');">
-					<img id="solar" src="assets/solar.png" title="Solar Power Plant" alt="solar power" width="175px" onClick="window.open('solar.html');">
-					<img id="wind" src="assets/wind2.png" title="Wind Turbine" alt="wind power" width="185px" onClick="window.open('wind.html');">
+					<img id="coal" src="assets/coal.png" title="Coal Power Plant" alt="coal plant" width="200px" onClick="window.open('coal.html', '_self');">
+					<img id="naturalgas" src="assets/naturalgas.png" title="Natural Gas Power Plant" alt="natural gas" width="250px" onClick="window.open('naturalgas.html', '_self');">
+					<img id="nuclear" src="assets/nuclear.png" title="Nuclear Power Plant" alt="nuclear power" width="150px" onClick="window.open('nuclear.html', '_self');">
+					<img id="solar" src="assets/solar.png" title="Solar Power Plant" alt="solar power" width="175px" onClick="window.open('solar.html', '_self');">
+					<img id="wind" src="assets/wind2.png" title="Wind Turbine" alt="wind power" width="185px" onClick="window.open('wind.html', '_self');">
 				</div>
 			</div>
 		</div>
@@ -52,20 +52,26 @@
   			</div>
 		</div>
 		
+
+		
 		<div class="container">
-  			<div class="row">
-    			<p class="col-md-6 text-center">1. Air Pollutant</p>
-    			<p class="col-md-6 text-center">2. Greenhouse Gases</p>
-  			</div>
+			<div class="listcontainer">
+				<div class="toplist">
+					<p id="li1">1. &nbsp; Air Pollutants</p>
+					
+						
+				</div>
+			</div>
 		</div>
-		
-		
-		<!-- grid approach -->
 		
 		<div class="container-fluid">
   			
+			
 			<div class="mancontainer">
+				
+				
 				<div class="man">
+					
 					<img src="assets/health.png" alt="man" style="width:700px">
 					<p id="co2text">*Carbon Dioxide - eq</p>
 					<img src="assets/CO2-eq.png" id="co2" alt="CO2" style="width:60px">
@@ -73,6 +79,8 @@
 					<img src="assets/NOx.png" id="nox" alt="NOx" style="width:60px">
 					<p id="pmtext">*Particulate Matter</p>
 					<img src="assets/PM.png" id="pm" alt="PM" style="width:60px">
+					<p id="so2text">*Sulfur Dioxide</p>
+					<img src="assets/SO2.png" id="so2" alt="SO2" style="width:60px">
 				</div>
 			</div>
 		</div>

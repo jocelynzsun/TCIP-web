@@ -104,22 +104,45 @@ body {
 
 .mancontainer {
 	text-align: center;
+	border: 1px solid black;
 }
 
 .man{
 	display: inline-block;
 	position: relative;
+	border: 1px solid black;
 }
 
 
-/*might need to fix position due to resizing */
+.listcontainer{
+	text-align: center;
+
+	border: 1px solid black;
+}
+
+.toplist{
+	padding-top: 50px;
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#li1{
+	position: absolute;
+	
+}
+
+#li2{
+	position: absolute;
+}
+	
+
 #co2text{
 	position: absolute;
 	top: 13%;
 	left: 64%;
 }
 
-/*might need to fix position due to resizing */
 #co2{
 	position: absolute;
 	top: 21%;
@@ -153,7 +176,8 @@ body {
 
 #pmtext{
 	position: absolute;
-	
+	top: 50%;
+	right: 62%;
 }
 
 #pm{
@@ -161,6 +185,29 @@ body {
 	top: 33%;
 	right: 68%;
 	opacity: 0.8;
+}
+
+#pm:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#so2text{
+	position: absolute;
+	top: 26%;
+	right: 80%;
+}
+
+#so2{
+	position: absolute;
+	top: 34%;
+	right: 82.5%;
+	opacity: 0.8;
+}
+
+#so2:hover{
+	opacity: 1.0;
+	cursor: pointer;
 }
 
 #energyPortfolio p {
