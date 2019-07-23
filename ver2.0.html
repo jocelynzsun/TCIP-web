@@ -72,13 +72,13 @@
 					
 					<img src="assets/health.png" alt="man" style="width:700px">
 					<p id="co2text">*Carbon Dioxide - eq</p>
-					<img src="assets/CO2-eq.png" id="co2" alt="CO2" style="width:60px">
+					<img src="assets/CO2-eq.png" id="co2" alt="CO2" style="width:60px" onClick="window.open('CO2.html', '_self');">
 					<p id="noxtext">*Nitrogen Oxide</p>
-					<img src="assets/NOx.png" id="nox" alt="NOx" style="width:60px">
+					<img src="assets/NOx.png" id="nox" alt="NOx" style="width:60px" onClick="window.open('NOx.html', '_self');">
 					<p id="pmtext">*Particulate Matter</p>
-					<img src="assets/PM.png" id="pm" alt="PM" style="width:60px">
+					<img src="assets/PM.png" id="pm" alt="PM" style="width:60px" onClick="window.open('pm.html', '_self');">
 					<p id="so2text">*Sulfur Dioxide</p>
-					<img src="assets/SO2.png" id="so2" alt="SO2" style="width:60px">
+					<img src="assets/SO2.png" id="so2" alt="SO2" style="width:60px" onClick="window.open('SO2.html', '_self');">
 				</div>
 			</div>
 		</div>
@@ -93,12 +93,18 @@
 		</div>
 		
 		
-		<!-- might need to change after figuring out the man breathing picture -->
-		<div class="container">
-  			<div class="text-center"> <img src="assets/map.png" alt="map" style="width:500px"> </div>
+		<div class="container-fluid">
+  			<div class="mapcontainer"> 
+				<div class="map">
+					<img src="assets/map.png" alt="map" style="width:650px">
+					
+					<!-- tranaparent clickable square for states (experimental) -->
+					<div id="CA">&nbsp;</div>
+				</div>
+			</div>
 		</div>
 
-		<!-- insert map img and buttons here -->
+
 
 		<div class="container">
   			<div class="text-center sup"> <sup>*Click on different states to learn about different energy portfolios</sup> </div>
